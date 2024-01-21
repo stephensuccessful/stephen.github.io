@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.box {
+    overflow: none;
+    width: 90%;
+}
+
+.content {
+    overflow: none;
+    border: 2px solid black;
+    margin: 3px;
+    padding: 3px;
+    padding-top: 30px;
+    background-color: grey;
+
+
+}
+
+#name1 {
+    overflow: none;
+    position: relative;
+    border: 2px solid black;
+    width: 130px;
+    height: 30px;
+    float: right;
+    margin-right: 6px;
+    margin-top: 0;
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+}
+
+#name2 {
+    overflow: none;
+    position: relative;
+    border: 2px solid black;
+    width: 130px;
+    height: 30px;
+    float: right;
+    margin-right: 6px;
+    margin-top: 0;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+#name3 {
+    overflow: none;
+    position: relative;
+    border: 2px solid black;
+    width: 130px;
+    height: 30px;
+    float: right;
+    margin-right: 6px;
+    margin-top: 0;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (min-width:992px) {
+    .col-lg-4 {
+        width: 33.3%;
+        float: left;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width:767px) {
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+    }
+}
